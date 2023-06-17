@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr-MA">
+<head>
+	<title>Creer un compte chez ocp service medicale</title>
+  <link rel="icon" type="image/jpg" href="images/OCP-logo.jpg">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins" rel="stylesheet">
+<meta charset="UTF-8">
+</head>
+<body>
+  <form action="php/compte.php" method="post">
+
+     	<div class="body">
+<div class="box">
+	<img class="main-logo" src="images/OCP-logo.jpg">
+  <h1>Créer un compte</h1>
+    <div class="form">
+
+   <label>Nom</label>
+    <input type="text" placeholder="Entrer Votre Nom" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Entrer Votre Nom'" name="nom">
+
+    <label>Prénom</label>
+    <input type="text" placeholder="Entrer Votre Prénom " onfocus="this.placeholder = ''" 
+    onblur="this.placeholder = 'Votre identifiant'" name="prenom" >
+
+    <label>Email</label>
+    <input type="text" placeholder="Entrer Votre identifiant" onfocus="this.placeholder = ''" 
+    onblur="this.placeholder = 'Votre identifiant'" name="email" >
+
+    <label>Mot de passe</label>
+    <input type="password" placeholder="Enter votre Mot de passe" onfocus="this.placeholder = ''"
+     onblur="this.placeholder = 'Mot de passe'" name="mopass">
+
+    <label>Confirmation</label>
+    <input type="password" placeholder="Confirmer votre Mot de passe" 
+    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Confirmer votre Mot de passe'" name="confmot"  >
+
+    <a href="login.html"> Compte déjà existant ? </a>
+    <input type="submit" name="connexion" value="Connexion">
+  </div>
+</div>
+</div>
+</form>
+</body>
+</html>
