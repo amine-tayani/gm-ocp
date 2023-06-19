@@ -5,6 +5,6 @@ Le projet "Gestion des Consultations Médicales" pour le Groupe OCP est une appl
 ## Authors
 
 - [Amine Tayani](https://www.github.com/amine-tayani)
-- [Oualid Bougzime](https://www.linkedin.com/in/oualid-bougzime-6857a9177)
+- [Oualid Bougzime](https://github.com/OualidBougzime)
 
 Feel free to connect with the contributors for any questions or feedback related to the project.
